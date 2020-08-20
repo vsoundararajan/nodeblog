@@ -3,11 +3,6 @@ const fs = require("fs");
 const _ = require("lodash");
 
 const server = http.createServer((req, res) => {
-   //lodash
-   _.once(() => {
-    const num = _.random(0, 20);
-    console.log(num);
-   })
 
    // set header content type
    res.setHeader('content-type', 'text/html');
