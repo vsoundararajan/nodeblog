@@ -3,7 +3,7 @@ const fs = require("fs");
 const _ = require("lodash");
 
 const server = http.createServer((req, res) => {
-
+  console.log("blog version 1");
    // set header content type
    res.setHeader('content-type', 'text/html');
    let path = './views/';
